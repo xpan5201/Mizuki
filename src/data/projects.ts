@@ -21,20 +21,18 @@ export interface Project {
 
 export const projectsData: Project[] = [
 	{
-		id: "mizuki",
-		title: "Mizuki",
+		id: "mnitbot",
+		title: "MnitBot",
 		description:
-			"A next-gen Material Design 3 blog theme built with Astro, featuring i18n, dark mode, and responsive design.",
-		image: "/assets/projects/mizuki.webp",
-		category: "web",
-		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
-		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/Mizuki",
-		visitUrl: "https://mizuki.mysqil.com",
+			"一个懂你的猫娘伴侣智能体项目，目前正在开发中。",
+		image: "/assets/projects/mintbot.webp",
+		category: "other",
+		techStack: ["Python", "JavaScript", "html", "css", "pyqt6"],
+		status: "in-progress",
+		sourceCode: "https://github.com/xpan5201/MintBot",
 		startDate: "2024-01-01",
-		endDate: "2024-06-01",
 		featured: true,
-		tags: ["Blog", "Theme", "Open Source"],
+		tags: ["猫娘", "AI伴侣", "智能体"],
 	}
 ];
 
